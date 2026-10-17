@@ -1,0 +1,50 @@
+# ====== WTK / J2ME Build Output ======
+# Compiled class files
+*.class
+
+# WTK temporary work directory (common in J2ME toolchains)
+.mtj.tmp/
+
+# WTK project build output directories (generated during compilation)
+tmpclasses/
+tmplib/
+classes/
+bin/
+
+# ====== Package Files ======
+# Build artifacts
+*.jar
+*.war
+*.ear
+*.jad
+
+# ====== IDE / Editor ======
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ====== OS Generated ======
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ====== Logs & Crash Dumps ======
+*.log
+hs_err_pid*
+replay_pid*
